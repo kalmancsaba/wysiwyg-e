@@ -103,9 +103,15 @@ class WysiwygToolTable extends WysiwygTool {
 									...
 								</paper-button>
 								<div slot="dropdown-content">
-									<paper-item on-tap="deleteCell">Cell</paper-item>
-									<paper-item on-tap="deleteRow">Row</paper-item>
-									<paper-item on-tap="deleteColumn">Column</paper-item>
+									<paper-item on-tap="deleteCell">
+										<wysiwyg-localize language="[[language]]" resources="[[resources]]" string-key="Cell"></wysiwyg-localize>
+									</paper-item>
+									<paper-item on-tap="deleteRow">
+										<wysiwyg-localize language="[[language]]" resources="[[resources]]" string-key="Row"></wysiwyg-localize>
+									</paper-item>
+									<paper-item on-tap="deleteColumn">
+										<wysiwyg-localize language="[[language]]" resources="[[resources]]" string-key="Column"></wysiwyg-localize>
+									</paper-item>
 								</div>
 							</paper-menu-button>
 						</div>
