@@ -156,6 +156,7 @@ class WysiwygToolTable extends WysiwygTool {
 
 		this.resources = {
 			'br': {
+				'Cell': 'Célula',
 				'Cell After': 'Célula Após',
 				'Cell Before': 'Célula Antes',
 				'Column': 'Coluna',
@@ -173,6 +174,7 @@ class WysiwygToolTable extends WysiwygTool {
 				'Table': 'Tabela'
 			},
 			'en': {
+				'Cell': 'Cell',
 				'Cell After': 'Cell After',
 				'Cell Before': 'Cell Before',
 				'Column': 'Column',
@@ -190,6 +192,7 @@ class WysiwygToolTable extends WysiwygTool {
 				'Table': 'Table'
 			},
 			'fr': {
+				'Cell': 'Cellule',
 				'Cell After': 'Cellule Après',
 				'Cell Before': 'Cellule Avant',
 				'Column': 'Colonne',
@@ -207,6 +210,7 @@ class WysiwygToolTable extends WysiwygTool {
 				'Table': 'Tableau'
 			},
 			'de': {
+				'Cell': 'Zelle',
 				'Cell After': 'Zelle danach',
 				'Cell Before': 'Zelle davor',
 				'Column': 'Spalte',
